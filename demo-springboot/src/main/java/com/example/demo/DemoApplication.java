@@ -11,11 +11,11 @@ public class DemoApplication {
     }
     
      public RestTemplate restTemplate1(){
-        String name= "zk";
+        String name4= "zk";
         String name1= "zk";
         String name2= "zk";
         String name3= "zk";
-        String name = "jack"
+        String name = "jack";
         return new RestTemplate();
     }
     public RestTemplate restTemplate11(){
