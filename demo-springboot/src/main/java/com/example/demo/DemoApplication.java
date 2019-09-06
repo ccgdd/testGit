@@ -11,6 +11,10 @@ public class DemoApplication {
     }
     
      public RestTemplate restTemplate1(){
+        String name= "zk";
+        String name1= "zk";
+        String name2= "zk";
+        String name3= "zk";
         return new RestTemplate();
     }
     public RestTemplate restTemplate11(){
