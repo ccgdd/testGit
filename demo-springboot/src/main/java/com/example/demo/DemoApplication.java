@@ -12,8 +12,7 @@ public class DemoApplication {
     
     
     
-    private ClientHttpRequestFactory requestFactory = new SimpleClientHttpRequestFactory();
-        public ClientHttpRequestFactory getRequestFactory() {
-        return this.requestFactory;
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
     }
 }
