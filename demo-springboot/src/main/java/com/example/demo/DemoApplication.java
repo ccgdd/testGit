@@ -11,6 +11,7 @@ public class DemoApplication {
     }
     
      public RestTemplate restTemplate1(){
+        String name = "jack"
         return new RestTemplate();
     }
     public RestTemplate restTemplate11(){
