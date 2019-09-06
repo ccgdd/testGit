@@ -10,8 +10,12 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
     
-    
-    
+     public RestTemplate restTemplate1(){
+        return new RestTemplate();
+    }
+    public RestTemplate restTemplate11(){
+        return new RestTemplate();
+    }
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
