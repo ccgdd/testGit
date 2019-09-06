@@ -15,4 +15,7 @@ public class DemoApplication {
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
+    public RestTemplate restTemplate3(){
+        return new RestTemplate();
+    }
 }
